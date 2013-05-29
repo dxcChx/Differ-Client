@@ -14,11 +14,16 @@ Pipe a diff to submit a diff to the differ server
 INSTALLATION
 ============
 
+Ubuntu:
 ```
  sudo apt-get install libxml-simple-perl  libtest-most-perl libfile-homedir-perl libfile-which-perl libipc-run3-perl libprobe-perl-perl libtest-script-perl libtest-class-perl
  sudo cpan WWW::PivotalTracker Mozilla::CA
 ```
-
+CentOS:
+```
+ sudo yum -y install perl-Crypt-SSLeay  
+ sudo cpan WWW::PivotalTracker Mozilla::CA
+```
 
 DEFAULT CONFIG VIA ~/.differ_defaults
 =====================================
